@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main(){
 	//TASK 3
 	
@@ -9,11 +7,8 @@ int main(){
 	scanf(" %d", &num);
 	
 	temp = num;
-	while(temp>9){
-		
-
-			temp/=10;
-			}
+	for(temp; temp > 9; temp/=10){
+	}
 	
 	A = temp;
 	B = num%10;
